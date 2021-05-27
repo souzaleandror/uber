@@ -1,3 +1,5 @@
+enum typeUser { PASSENGER, DRIVER, ADMIN }
+
 class Usuario {
   String _idUsuario;
   String _nome;

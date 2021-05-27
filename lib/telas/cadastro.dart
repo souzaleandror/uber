@@ -230,7 +230,9 @@ class _CadastroState extends State<Cadastro> {
               context, '/painel-passageiro', (_) => false);
           break;
       }
-    }).catchError((error) {
+    }).catchError((error, ex) {
+      print(error);
+      print(ex);
       setState(() {
         _mesagemErro = 'Erro ao criar usuario, tente novamente.';
       });

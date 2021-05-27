@@ -1,33 +1,41 @@
 {
   "project_info": {
-    "project_number": "231133302486",
-    "project_id": "uber-2dcc9",
-    "storage_bucket": "uber-2dcc9.appspot.com"
+    "project_number": "1093796546341",
+    "project_id": "uber-7e9d2",
+    "storage_bucket": "uber-7e9d2.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:231133302486:android:9dffd005ac29caa72b4377",
+        "mobilesdk_app_id": "1:1093796546341:android:3cf98fba6c1388e16b7ccc",
         "android_client_info": {
           "package_name": "com.example.uber"
         }
       },
       "oauth_client": [
         {
-          "client_id": "231133302486-g9j6me1vjhtc5d855hb5qnn0j4pnl6e8.apps.googleusercontent.com",
+          "client_id": "1093796546341-shl70uvip11bvpoeslc3kjm4tp219cgc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.uber",
+            "certificate_hash": "7927f2488cdfd25a9db3effd57ed8221c61ed3c6"
+          }
+        },
+        {
+          "client_id": "1093796546341-gh2lp9c6280p8kllpfin6lvj0i6upmtl.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyA7CCzNnjF66zeHVuFxnQLJtvq6F-jNT88"
+          "current_key": "AIzaSyCiS9hHSrAgTn2_nU_sG6oB7nscsqs-lQs"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "231133302486-g9j6me1vjhtc5d855hb5qnn0j4pnl6e8.apps.googleusercontent.com",
+              "client_id": "1093796546341-gh2lp9c6280p8kllpfin6lvj0i6upmtl.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
