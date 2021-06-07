@@ -1,11 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:uber/telas/cadastro.dart';
+import 'package:uber/telas/corrida.dart';
 import 'package:uber/telas/home.dart';
 import 'package:uber/telas/painel_motorista.dart';
 import 'package:uber/telas/painel_passageiro.dart';
 
 class Rotas {
   static Route<dynamic> gerarRotas(RouteSettings settings) {
+    final args = settings.arguments;
+
     switch (settings.name) {
       case '/':
         return MaterialPageRoute(builder: (_) => Home());
@@ -18,6 +21,9 @@ class Rotas {
         break;
       case '/painel-passageiro':
         return MaterialPageRoute(builder: (_) => PainelPassageiro());
+        break;
+      case '/corrida':
+        return MaterialPageRoute(builder: (_) => Corrida(args));
         break;
       default:
         _erroRota();
